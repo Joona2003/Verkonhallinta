@@ -12,6 +12,7 @@ SNMP-agentti asennettiin `web1`, `db1` ja `branch-client` -laitteille:
 apt update
 apt install snmp snmpd -y
 ```
+Monessa kohtaa jouduin asentamaan "nanon" sekä "sudon" uusiksi jottai pystyin muokata tiedostoja ja suorittaa komentoja.
 
 SNMP konfiguroitiin tiedostossa `/etc/snmp/snmpd.conf` lisäämällä:
 
